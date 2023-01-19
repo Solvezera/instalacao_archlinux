@@ -58,13 +58,13 @@ mkfs.btrfs /dev/sda4
 mount /dev/sda3 /mnt
 ```
 		
-:heavy_minus_sign: Criar a pasta do home e montar a mesma
+:heavy_minus_sign: Criar a pasta /home e montar a mesma
 ```sh 
 mkdir /mnt/home
 mount /dev/sda4 /mnt/home
 ```
 
-:heavy_minus_sign: Criar a pasta boot e EFI e montar a mesma
+:heavy_minus_sign: Criar a pasta /boot e /boot/efi e montar as mesmas
 ```sh 
 mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot
@@ -72,7 +72,7 @@ mkdir /mnt/boot/efi
 mount /dev/sda1 /mnt/boot/efi
 ```
 
-:heavy_minus_sign: Montar partição Swap
+:heavy_minus_sign: Ativar a partição de SWAP
 ```sh 
 swapon /dev/sda2
 ```	
@@ -159,7 +159,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ```sh
 su -
 EDITOR=nano visudo
-Descomentar a linha %wheel ALL=(ALL;ALL) ALL
+Descomentar a linha %wheel ALL=(ALL : ALL) ALL
 CTRL-X
 CTRL-O
 ```
