@@ -1,9 +1,9 @@
 # PASSO A PASSO DA INSTALAÇÃO ARCH LINUX
 
 ### :no_entry: Tutorial apenas com o objetivo de deixar salvo o procedimento para instalação do Arch Linux via texto. :no_entry:
-<br/>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z0HZOAZ) <br/>
 
-## :green_circle:	PRIMEIROS PASSOS 
+## :green_circle: PRIMEIROS PASSOS 
 :heavy_minus_sign: Baixar a ISO mais recente no site [Arch Linux](https://archlinux.org/download) <br/>
 :heavy_minus_sign: Gravar a ISO no pendrive para tornar o mesmo bootável, pode-se utilizar o [Rufus](https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe) <br/>
 
@@ -96,7 +96,7 @@ cat /mnt/etc/fstab (validar o que foi gerado)
 arch-chroot /mnt
  ```	
  
-## :green_circle:	CONFIGURAÇÃO DO SISTEMA INSTALADO
+## :green_circle: CONFIGURAÇÃO DO SISTEMA INSTALADO
 :heavy_minus_sign: Fazer a configuração do localtime para sua localização
 ```sh 
 ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
