@@ -8,6 +8,8 @@
 :heavy_minus_sign: Gravar a ISO no pendrive para tornar o mesmo bootável, pode-se utilizar o [Rufus](https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe) <br/>
 
 ## :green_circle: INSTALAÇÃO VIA MODO TEXTO
+:heavy_minus_sign: Carregar a instalação do Arch Linux através do pendrive criado.
+
 :heavy_minus_sign: Verificar se está com conexão à internet <br/>
 ```sh
 ping www.google.com
