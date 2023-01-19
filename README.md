@@ -96,7 +96,7 @@ cat /mnt/etc/fstab (validar o que foi gerado)
 arch-chroot /mnt
  ```	
  
-## :green_circle: CONFIGURAÇÃO DO SISTEMA INSTALADO
+## :green_circle: CONFIGURAÇÃO INICIAL APÓS INSTALAÇÃO DA BASE DO SISTEMA
 :heavy_minus_sign: Fazer a configuração do localtime para sua localização
 ```sh 
 ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
